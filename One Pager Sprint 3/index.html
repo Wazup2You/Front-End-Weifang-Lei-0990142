@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Tankor | Sprint 3</title>
+     
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!---HEADER------------------------------------------------------------------------>
+
+        <header>
+            <div id="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo">
+                </a>                    
+            </div>
+
+            <nav id="main-nav">
+                <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#build"><li>Build</li></a>
+                    <a href="#function"><li>Function</li></a>
+                    <a href="#contact"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </header>
+
+        <!---HOME------------------------------------------------------------------------->
+
+        <section id="home">
+            <hr>
+            <h1>Tankor</h1>
+            <h2>Sprint 3</h2>
+            <a href="#about">
+                <img src="images/arrow2.png" alt="Arrow">
+            </a>
+        </section>
+
+        <!---ABOUT----------------------------------------------------------------------->
+
+        <section id="about">
+            <h3>About</h3>
+            <hr>
+            <img src="images/Tom Faust.png" alt="Tom Faust">
+            <img src="images/Niek Schouten.png" alt="Niek Schouten">
+            <img src="images/Weifang Lei.png" alt="Weifang Lei">
+            <h4>Team 16 / Tankor</h4>
+            <p>De Robot is gebaseerd op de Tankor van de populaire franchise Transformers.<img src="images/about tankor.jpg" alt="Tankor" height="300"><img src="images/landing3.jpg" alt="Tankor" height="300"></p>
+            <p>De robot wordt gestuurd met behulp van de Adafruit Circuit Playground Express op de Adafruit CRICKIT, 
+                een uitbreiding voor de Playground Express.</p>
+            <p>De robot heeft zaagtanden dat de tegenstander naar de andere richting duwt. 
+                Het rijdt met behulp van een 360 graden servo wanneer er iets dichtbij ziet met 
+                behulp van twee ultrasonische afstands detectie modules. 
+                De linker zaagtand draait met behulp van een tweede 360 graden servo wanneer de linker 
+                ultrasonische afstands detectie module iets binnen 50 cm ziet en bij de rechter 
+                zaagtand hetzelfde alleen rechts. Zijn "hoofd" draait, om de tegenstanders te intimideren.</p>
+            <p>De Basis van de robot is gemaakt van Lego. De "body" en "armen" zijn gemaakt van hout, 
+                deze beschermen de elektronische gedeelte van de robot.</p>
+        </section>
+
+        <!---BUILD---------------------------------------------------------------------->
+
+        <section id="build">
+            <h3>Build</h3>
+            <hr>
+            
+            <div id="videos">
+                <ul>
+                    <li><a href="#"><img src="images/Build1.jpg" alt="Build_01"></a></li>
+                    <li><a href="#"><img src="images/Build2.jpg" alt="Build_02"></a></li>
+                    <li><a href="#"><img src="images/Build3.jpg" alt="Build_03"></a></li>
+                    <li><a href="#"><img src="images/Build4.jpg" alt="Build_04"></a></li>
+                    <li><a href="#"><img src="images/Build5.jpg" alt="Build_05"></a></li>
+                    <li><a href="#"><img src="images/Build6.jpg" alt="Build_06"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!---FUNCTION---------------------------------------------------------------------->
+
+        <section id="function">
+            <h3>Function</h3>
+            <hr>
+            <h4>Working Prototype</h4>
+            <p>Hieronder een korte filmpje van de werkende Tankor.</p>
+            <video width="1280" height="720" controls>
+                <source src="videos/Tankor.mp4" type="video/mp4">
+            </video>
+            
+        </section>
+
+        <!---FLEXBOX------------------------------------------------------------------------>
+
+        <div class="parent">
+            <div class="pic1"><img src="images/logo decepticon.png" alt="logo_decepticon"><br>Decepticon</div>
+            <div class="pic2"><img src="images/tankor bm.jpg"></div>
+            <div class="pic5"><img src="images/optimus prime.jpg"></div>
+            <div class="pic6"><img src="images/logo transformers.png" alt="logo_transformers"><br>Autobot</div>
+
+        </div>
+
+        <!---CONTACT---------------------------------------------------------------------->
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <hr>
+
+            <form>
+                <input class="input_text" type="email" tabindex="1" placeholder="E-Mail"><br>
+                <input class="input_text" type="text" tabindex="2" placeholder="Onderwerp"><br>
+                <textarea class="input_text" tabindex="3" placeholder="Bericht"></textarea><br>
+                <input class="button" type="submit">
+            </form>
+        </section>
+
+        <!---FOOTER---------------------------------------------------------------------->
+
+        <footer>
+            <p>
+                &copy; 2019-2020 Tankor
+            </p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

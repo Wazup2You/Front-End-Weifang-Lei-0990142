@@ -270,35 +270,37 @@ form textarea {
     background-color: white;
     margin: 10px;
     padding: 30px;
-    display: inline-flex;
+    height: 1100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+ 
 }
 
 .pic1 {
     background-color: white;
     margin: 10px;
-    padding: 30px;
     font-size: 30px;
+    flex: 1 1 auto;
 }
 
 .pic2 {
     background-color: white;
-    margin: 5px;
-    padding: 30px;
-    font-size: 30px;
+    margin: 10px;
+    flex: 1 1 auto;
 }
 
 .pic5 {
     background-color: white;
-    margin: 5px;
-    padding: 30px;
-    font-size: 30px;
+    margin: 10px;
+    flex: 1 1 auto;
 }
 
 .pic6 {
     background-color: white;
-    margin: 10px;
-    padding: 30px;
+    margin: 10px;   
     font-size: 30px;
+    flex: 1 1 auto;
 }
 
 /* FOOTER **************************************************/
